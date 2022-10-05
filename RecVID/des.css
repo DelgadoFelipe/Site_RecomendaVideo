@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+h1 {
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.posi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 650px;
+    max-height: 550px;
+    justify-content: space-around;          
+}
+
+
+.button {
+    width: 296px;
+    height: 166px;
+    background-image: url(img1.jpg);
+    border: solid 2px white;
+    transition: transform 100ms cubic-bezier(0.18, 0.73, 0.72, 1.31);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button.-two {
+    background-image:url(img2.jpg);
+}
+
+.button.-three {
+    background-image:url(img3.jpg);
+    margin: 0;
+}
+
+.button.-four {
+    background-image:url(img4.jpg);
+    margin: 0;
+}
+
+a {
+    margin-top: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;   
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: rgb(0, 255, 242);
+    transition: 0.5s;
+}
+
+.button2 {
+    display: flex;
+    margin: auto;
+    width: 90px;
+    height: 80px;
+    transition: transform 100ms cubic-bezier(0.18, 0.73, 0.72, 1.31);
+}
+
+.button2:hover{
+    transform: scale(1.08);
+}
